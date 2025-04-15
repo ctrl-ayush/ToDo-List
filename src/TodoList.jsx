@@ -5,7 +5,7 @@ export default function TodoList(){
     const [newTodo, setnewTodo] = useState([""]);
     const doSomething=()=>{
         if(newTodo===""){
-            alert("Please enter a task");
+            alert("Please enter a task")
             return;
         }
         console.log("Button is Working");
